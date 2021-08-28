@@ -1,0 +1,1 @@
+int mycsv(bool header, char* parse_file, char* out_file, bool varPrint);
