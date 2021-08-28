@@ -1,0 +1,193 @@
+% AerE 361 Lab Report Template
+% Spring 2021
+% Template created by Yiqi Liang and Professor Matthew Nelson
+
+% Document Configuration DO NOT CHANGE
+\documentclass{report}
+% --------------------LaTeX Packages---------------------------------
+% The following are packages that are used in this report.
+% DO NOT CHANGE ANY OF THE FOLLOWING OR YOUR REPORT WILL NOT COMPILE
+% -------------------------------------------------------------------
+
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{graphicx}
+\usepackage{graphviz}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color} %for LessIsMore style
+\usepackage{tcolorbox} %for references box
+\usepackage[hmargin=1in,vmargin=1in]{geometry} % use 1 inch margins
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{svg} % Allows for SVG Vector graphics
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=cyan,
+}
+\usepackage{biblatex}
+\addbibresource{myref.bib}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{array}
+
+\usepackage{hologo} %KYR: for \BibTeX
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+% This configures items for code listings in the document
+
+\definecolor{commentsColor}{rgb}{0.497495, 0.497587, 0.497464}
+\definecolor{keywordsColor}{rgb}{0.000000, 0.000000, 0.635294}
+\definecolor{stringColor}{rgb}{0.558215, 0.000000, 0.135316}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  frame=L,
+  xleftmargin=\parindent,
+  language=[x86masm]Assembler,
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{purple!40!black},
+}
+
+\lstset{escapechar=@,style=customc}
+
+
+\titlelabel{\thetitle.\quad}
+
+% From here on out you can start editing your document
+% ----------------------Page 1 Title Page------------------------------------------
+% Make sure you edit your FirstName and LastName and the Lab number
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\LARGE#1\end{center}
+    \vskip0.5em}%
+}
+
+\title{\textbf{Iowa State University
+\\{\Large Aerospace Engineering}}}
+\subtitle{AERE 361 Lab 10 Report}
+\author{Rohan Gupta}
+
+\begin{document}
+\maketitle
+\tableofcontents
+% ----------------------Page 2 Intro, Objectives and Methodology-----------------------------------
+\chapter{Pre-Lab}
+\section{Objectives}
+In this lab, we will gain additional experience with using the HPC-Classroom cluster on campus. We aill also learn how to parallelize tasks to multiple processors. Finally we will learn how processors can communicate between each other using MPI.
+
+\section{Methodology}
+For this lab, I used VSCode and Windows Subsystem for Linux (WSL) through VSCode, along with Github Desktop for the entire lab. I accessed the HPC through WSL as opposed to PowerShell, which I used last time to access the HPC.
+
+
+% ----------------------Page 3 Results-------------------------------------------
+\chapter{Lab Work}
+\section{Results}
+\subsection{Exercise 1 Code}
+\lstinputlisting[language=c]{../hello_mpi.c}
+
+\subsection{Exercise 1 Outputs}
+Outputs for 4 processors
+\verbatiminput{outputs/hello4.txt}
+
+Outputs for 8 processors
+\verbatiminput{outputs/hello8.txt}
+
+Outputs for 16 processors
+\verbatiminput{outputs/hello16.txt}
+
+% ------------------------------------------------ %
+
+\subsection{Exercise 2 Code}
+\lstinputlisting[language=c]{../communicate.c}
+
+\subsection{Exercise 2 Outputs}
+Outputs for 4 processors
+\verbatiminput{outputs/comm4.txt}
+
+Outputs for 8 processors
+\verbatiminput{outputs/comm8.txt}
+
+Outputs for 16 processors
+\verbatiminput{outputs/comm16.txt}
+
+% ------------------------------------------------ %
+
+\subsection{Exercise 3 Code}
+\lstinputlisting[language=c]{../quad.c}
+
+\subsection{Exercise 3 Outputs}
+Outputs for 4 processors
+\verbatiminput{outputs/quad4.txt}
+
+Outputs for 8 processors
+\verbatiminput{outputs/quad8.txt}
+
+Outputs for 16 processors
+\verbatiminput{outputs/quad16.txt}
+
+% ------------------------------------------------ %
+
+\subsection{Exercise 4 Code}
+\lstinputlisting[language=c]{../fft.c}
+
+\subsection{Exercise 4 Outputs}
+Outputs for 4 processors
+\verbatiminput{outputs/fft4.txt}
+
+Outputs for 8 processors
+\verbatiminput{outputs/fft8.txt}
+
+Outputs for 16 processors
+\verbatiminput{outputs/fft16.txt}
+
+% ------------------------------------------------ %
+
+\section{Analysis}
+\subsection{Exercise 1}
+For this exercise, we got practice in working with multiple processors. We assigned the program to execute on both 4, 8 and 16 processors and saw that command executed on each processor and got the "Hello World from processor n" message. This was quite simple and was incresting to learn how compiling with the Intel C compiler worked.
+
+
+\subsection{Exercise 2}
+Similar to the last exercise, we added a couple lines to the communicate.c file and used the Intel C compiler to have our program communicate between the processors and output the results of running with 4, 8 and 16 processors.
+
+
+\subsection{Exercise 3}
+This exercise was a little more different, we used a flag to compile our program. We simply had to write our equation that was given and compile using the -fopenmp flag.
+
+
+\subsection{Exercise 4}
+Similar to the last exercise, we used the -fopenmp flag while compiling the code.
+
+
+\chapter{Conclusion}
+\section{Summary}
+In this lab, we continued to stregnthen our skills with UNIX commands via the HPC, as well as learning about parallelization and utilizing multiple processors for a task.
+
+\section{Reflection}
+This lab was simpler than other ones. I wish we had fewer labs where we were just given the code, because there was less learning and more "copy-paste till it works" involved. While I understand that to fully learn these tasks takes time, it's still something I wish I had the time to learn.
+
+
+\end{document}

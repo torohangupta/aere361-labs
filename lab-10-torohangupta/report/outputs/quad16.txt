@@ -1,0 +1,320 @@
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094677
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094656
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094529
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094524
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094625
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094638
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094674
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094521
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094613
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094694
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094577
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094559
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094518
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094560
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094395
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
+03 May 2021 02:26:37 AM
+
+QUAD_OPENMP:
+  Use OpenMP for parallel execution.
+  Estimate the integral of f(x) from A to B.
+  f(x) = 50 / ( pi * ( 2500 * x * x + 1 ) ).
+
+  A        = 0.000000
+  B        = 10.000000
+  N        = 10000000
+  Exact    =       0.4993633810764567
+
+  Estimate =       0.4993712889190963
+  Error    = 7.907843e-06
+  Time     = 0.094438
+
+QUAD_OPENMP:
+  Normal end of execution.
+
+03 May 2021 02:26:37 AM
